@@ -4,14 +4,13 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 ### Purpose
 The purpose of this project is to develop outcomes of fundraisers based on their launch dates and funding goals. To achieve this, I used advanced formulas and terminologies, interactive charts and graphs with pivot tables and  to organize the data with filters and conditional formatting. The above mentioned skills allowed me to reveal trends which would help Louise.
 ## Analysis and Challenges
-This project constitutes two main analysis.  The first is the "Analysis of Outcomes Based on Launch Date" and second, # "The Analysis of Outcomes based on Goals". Both analysis involved 
-organizing, filtering, sorting and visualizing the data. Below gives a detailed description of both analysis.
+This project constitutes two main analysis.  The first is the "Analysis of Outcomes Based on Launch Date" and second, "The Analysis of Outcomes based on Goals". Both analysis involved organizing, filtering, sorting and visualizing the data. Below gives a detailed description of both analysis.
 ### Analysis of Outcomes Based on Launch Date
-With this challenge, I needed to ensure that I organize, sort, filter and visualize the data set to allow me read the trend based on outcomes on launch date. I did that by creating an additional column  called “Years” to the Kickstarter worksheet. The data for this column was derived from the use of the Year() function from the “ Date Created Conversion” column. This step would allow me to easily create a pivot table and chart. 
+With this challenge, I needed to ensure that I organize, sort, filter and visualize the data set to allow me read the trend based on outcomes on launch date. I did that by creating an additional column  called “Years” to the Kickstarter worksheet. The data for this column was derived from the use of the "Year()" function from the “ Date Created Conversion” column. This step would allow me to easily create a pivot table and chart. 
 
 Since our analysis is focused on the launch dates of theater outcomes, I went ahead to filter the parent category to select only “Theater”.
 
-Once I had organized, sorted and filtered the data, the next step was to visualize it. I completed this step by creating a line chart from the pivot table which I labelled Theater_Outcomes_vs_Launch.  I selected Pivot Table Analyze, Pivot Chart then Change Chart Type to Line Chart.  I added a title to the chart by selecting Add Chart Element and selected Chart Title.
+Once I had organized, sorted and filtered the data, the next step was to visualize it. I completed this step by creating a line chart from the pivot table which I labelled "Theater_Outcomes_vs_Launch".  I selected Pivot Table Analyze, Pivot Chart then Change Chart Type to Line Chart.  I added a title to the chart by selecting Add Chart Element and selected Chart Title.
 
 From the graph, the successful outcomes varies throughout the months  with a high range of 111 and its lowest range of 37. The failed outcomes were more or less in the same range and not having extreme values. It has a lowest of 31 and highest 52. The canceled outcomes were more stable through the year. Seasonality seems to play a role in the outcomes.   
 ### Analysis of Outcomes Based on Goals
