@@ -37,7 +37,6 @@ The chart/graph also shows that it is better to have an event within April – S
 - What can you conclude about the Outcomes based on Goals?
 The chart/graph shows that the higher the fundraising goal, the more likely the event will fail. In addition, the most successful goal that was reached is less than $1000
 
-
 - What are some limitations of this dataset?
 A limitation of this dataset is not knowing how many people pledged to a particular goal. It would be important to have an idea of the average number of individuals that pledge to a goal as averages are important in analysis. 
 
