@@ -8,11 +8,10 @@ This project constitutes two main analysis.  The first is the Analysis of Outcom
 organizing, filtering, sorting and visualizing the data. Below gives a detailed description of both analysis.
 ### Analysis of Outcomes Based on Launch Date
 With this challenge, I needed to ensure that I organize, sort, filter and visualize the data set to allow me read the trend based on outcomes on launch date. I did that by creating an additional column  called “Years” to the Kickstarter worksheet. The data for this column was derived from the use of the Year() function from the “ Date Created Conversion” column. This step would allow me to easily create a pivot table and chart. 
-![](images/year.png)
+
  
-The second part of this analysis involved creating a pivot table in a different sheet labelled “Theater Outcomes by Launch Date”.  This step involved filtering the parent category and years, placing outcomes in columns, date created conversion in rows and count of outcomes in values. I proceeded by making the column labels only show successful, canceled and failed.  I then grouped the rows to show months of the year in order to have a much concise/simplified table.
- 
-Since our analysis is focused on the launch dates of theater outcomes, I went ahead to filter the parent category to select only “Theater”.
+
+ Since our analysis is focused on the launch dates of theater outcomes, I went ahead to filter the parent category to select only “Theater”.
 
 
  
