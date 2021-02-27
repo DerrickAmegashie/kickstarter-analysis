@@ -4,23 +4,23 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 ### Purpose
 The purpose of this project is to develop outcomes of fundraisers based on their launch dates and funding goals. To achieve this, I used advanced formulas and terminologies, interactive charts and graphs with pivot tables and  to organize the data with filters and conditional formatting. The above mentioned skills allowed me to reveal trends which would help Louise.
 ## Analysis and Challenges
-This project constitutes two main analysis.  The first is the "Analysis of Outcomes Based on Launch Date" and second, "The Analysis of Outcomes based on Goals". Both analysis involved organizing, filtering, sorting and visualizing the data. Below gives a detailed description of both analysis.
+This project constitutes two main analysis.  The first is the **"Analysis of Outcomes Based on Launch Date"** and second, **"The Analysis of Outcomes based on Goals"**. Both analysis involved organizing, filtering, sorting and visualizing the data. Below gives a detailed description of both analysis.
 ### Analysis of Outcomes Based on Launch Date
 With this challenge, I needed to ensure that I organize, sort, filter and visualize the data set to allow me read the trend based on outcomes on launch date. I did that by creating an additional column  called “Years” to the Kickstarter worksheet. The data for this column was derived from the use of the "Year()" function from the “ Date Created Conversion” column. This step would allow me to easily create a pivot table and chart. **(Figure 1)**
 
-The second part of this analysis involved creating a pivot table in a different sheet labelled “Theater Outcomes by Launch Date”.  This step involved filtering the parent category and years, placing outcomes in columns, date created conversion in rows and count of outcomes in values. I proceeded by making the column labels only show successful, canceled and failed.  I then grouped the rows to show months of the year in order to have a much concise/simplified table.(Figure 2)
+The second part of this analysis involved creating a pivot table in a different sheet labelled **“Theater Outcomes by Launch Date”**.  This step involved filtering the parent category and years, placing outcomes in columns, date created conversion in rows and count of outcomes in values. I proceeded by making the column labels only show successful, canceled and failed.  I then grouped the rows to show months of the year in order to have a much concise/simplified table.**(Figure 2)**
 
-Since our analysis is focused on the launch dates of theater outcomes, I went ahead to filter the parent category to select only “Theater”.(Figure 3)
+Since our analysis is focused on the launch dates of theater outcomes, I went ahead to filter the parent category to select only “Theater”.**(Figure 3)**
 
-Once I had organized, sorted and filtered the data, the next step was to visualize it. I completed this step by creating a line chart from the pivot table which I labelled "Theater_Outcomes_vs_Launch".  I selected Pivot Table Analyze, Pivot Chart then Change Chart Type to Line Chart.  I added a title to the chart by selecting Add Chart Element and selected Chart Title.(Figure 4)
+Once I had organized, sorted and filtered the data, the next step was to visualize it. I completed this step by creating a line chart from the pivot table which I labelled **"Theater_Outcomes_vs_Launch"**.  I selected Pivot Table Analyze, Pivot Chart then Change Chart Type to Line Chart.  I added a title to the chart by selecting Add Chart Element and selected Chart Title.**(Figure 4)**
 
 From the graph, the successful outcomes varies throughout the months  with a high range of 111 and its lowest range of 37. The failed outcomes were more or less in the same range and not having extreme values. It has a lowest of 31 and highest 52. The canceled outcomes were more stable through the year. Seasonality seems to play a role in the outcomes.   
 ### Analysis of Outcomes Based on Goals
-The Analysis of Outcomes Based on Goals involved determining the trend established by filtering on the Kickstarter “outcome” on the Goals amount column using specific ranges  and using plays as the criteria. This was made possible through the use of the COUNTIFS()function by counting the Number of Successful, Number of Failed and Number of Canceled which match the play criteria in the IF statement.(Figure 5)
+The Analysis of Outcomes Based on Goals involved determining the trend established by filtering on the Kickstarter “outcome” on the Goals amount column using specific ranges  and using plays as the criteria. This was made possible through the use of the COUNTIFS()function by counting the Number of Successful, Number of Failed and Number of Canceled which match the play criteria in the IF statement.**(Figure 5)**
 
-To have a more organized and easier to read data, I used the SUM() function to populate the “Total Projects” column which helped in calculating the percentage of successful, failed and canceled projects for each row.(Figure 6)
+To have a more organized and easier to read data, I used the SUM() function to populate the “Total Projects” column which helped in calculating the percentage of successful, failed and canceled projects for each row.**(Figure 6)**
 
-The second phase of this analysis involved visualizing the organized and filtered data. I created a line chart to visualize the relationship between goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.(Figure 7)
+The second phase of this analysis involved visualizing the organized and filtered data. I created a line chart to visualize the relationship between goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.**(Figure 7)**
 
 From the graph, the goal ranges less 10,000 had the most number of projects. Both the successful and failed projects within those ranges had the highest number of projects. 
 
